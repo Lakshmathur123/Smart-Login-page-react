@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <div className="login-section">
         <div className="logo">
-          <img src="/public/horse-galloping-black-silhouette-facing-left.png" alt="SmartSave logo" height="20px" width="20px" />
+          <img src="/public/images/horse-galloping-black-silhouette-facing-left.png" alt="SmartSave logo" height="20px" width="20px" />
           SmartSave
         </div>
         <h1>Welcome Back</h1>
@@ -41,9 +41,9 @@ function App() {
           <span className="line"></span>
         </div>
         <div className="social-buttons">
-        <button class="social-btn google"><img src="/public/google.png" alt="google image-section" height="20px" width="20px"/></button>
-                    <button class="social-btn apple"><img src="/public/apple-logo.png" alt="image-section" height="20px" width="20px"/></button>
-                    <button class="social-btn facebook"><img src="/public/facebook.png" alt="image-section" height="20px" width="20px"/></button>
+        <button class="social-btn google"><img src="/public/images/google.png" alt="google image-section" height="20px" width="20px"/></button>
+                    <button class="social-btn apple"><img src="/public/images/apple-logo.png" alt="image-section" height="20px" width="20px"/></button>
+                    <button class="social-btn facebook"><img src="/public/images/facebook.png" alt="image-section" height="20px" width="20px"/></button>
         </div>
         <p className="footer-text">
           Join the millions of smart investors who trust us to manage their finances.
@@ -52,7 +52,7 @@ function App() {
         </p>
       </div>
       <div className="image-section">
-        <img src="/public/logo.jpg" alt="Safe Icon" />
+        <img src="/public/images/logo.jpg" alt="Safe Icon" />
       </div>
     </div>
   );
