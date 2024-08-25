@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SignIn from './Components/SignIn';
-import SignUp from './components/SignUp';
+import SignUp from './Components/SignUp';
 
 function App() {
   const [activeTab, setActiveTab] = useState('signIn');
