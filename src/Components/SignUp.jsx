@@ -12,7 +12,7 @@ function SignUp() {
     <form onSubmit={handleSubmit(onSubmit)} id="signUpForm">
        <div className="input-group">
         <label htmlFor="signUpUsername">
-        <img src="/public/images/user.png" alt="password icon" />
+        <img src="/images/user.png" alt="password icon" />
         </label>
         <input
           type="text"
@@ -23,7 +23,7 @@ function SignUp() {
       </div>
       <div className="input-group">
         <label htmlFor="signUpEmail">
-          <img src="/public/images/email.png" alt="email icon" />
+        <img src="/images/email.png" alt="email icon" />
         </label>
         <input
           type="email"
@@ -35,7 +35,7 @@ function SignUp() {
       </div>
       <div className="input-group">
         <label htmlFor="signUpPassword">
-          <img src="/public/images/lock.png" alt="password icon" />
+        <img src="/images/lock.png" alt="password icon" />
         </label>
         <input
           type="password"
@@ -46,7 +46,7 @@ function SignUp() {
       </div>
       <div className="input-group">
         <label htmlFor="signUpPassword">
-          <img src="/public/images/lock.png" alt="password icon" />
+        <img src="/images/lock.png" alt="password icon" />
         </label>
         <input
           type="password"

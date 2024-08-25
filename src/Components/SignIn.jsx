@@ -12,7 +12,7 @@ function SignIn() {
     <form onSubmit={handleSubmit(onSubmit)} id="signInForm">
       <div className="input-group">
         <label htmlFor="signInEmail">
-          <img src="/public/images/email.png" alt="email icon" />
+        <img src="/images/email.png" alt="email icon" />
         </label>
         <input
           type="email"
@@ -24,7 +24,7 @@ function SignIn() {
       </div>
       <div className="input-group">
         <label htmlFor="signUpPassword">
-          <img src="/public/images/lock.png" alt="password icon" />
+        <img src="/images/lock.png" alt="password icon" />
         </label>
         <input
           type="password"
